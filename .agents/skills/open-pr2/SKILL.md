@@ -9,7 +9,7 @@ allowed-tools: Bash(git *) Bash(gh *) Bash(bun *) Read
 
 # OpenPR2
 
-Open or update a pull request against `pascalorg/editor` from the current branch. Keep the repository's PR template, but write the body like one developer explaining the change to another.
+Open or update a pull request against `Unity-Billal-mesloub/editor` from the current branch. Keep the repository's PR template, but write the body like one developer explaining the change to another.
 
 ## 1. Pre-flight
 
