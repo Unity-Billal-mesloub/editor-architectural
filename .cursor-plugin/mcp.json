@@ -1,21 +1,21 @@
 {
   "mcpServers": {
-    "pascal": {
+    "Unity-Billal-mesloub": {
       "type": "stdio",
       "command": "npx",
       "args": [
         "--yes",
-        "--package=@pascal-app/cli@1.0.0",
-        "pascal",
+        "--package=@Unity-Billal-mesloub-app/cli@1.0.0",
+        "Unity-Billal-mesloub",
         "mcp",
         "connect"
       ]
     },
     "pascal-hosted": {
       "type": "http",
-      "url": "https://editor.pascal.app/api/mcp",
+      "url": "",
       "auth": {
-        "CLIENT_ID": "pascal-cursor",
+        "CLIENT_ID": "Unity-Billal-mesloub-cursor",
         "scopes": [
           "openid",
           "profile",
