@@ -28,7 +28,6 @@ jobs:
       - name: Install MCP Registry publisher
         run: |
           curl --fail --location \
-            "https://github.com/modelcontextprotocol/registry/releases/download/v${MCP_PUBLISHER_VERSION}/mcp-publisher_linux_amd64.tar.gz" \
             --output "$RUNNER_TEMP/mcp-publisher.tar.gz"
           echo "${MCP_PUBLISHER_LINUX_AMD64_SHA256}  $RUNNER_TEMP/mcp-publisher.tar.gz" | sha256sum --check
           tar -xzf "$RUNNER_TEMP/mcp-publisher.tar.gz" -C "$RUNNER_TEMP" mcp-publisher
@@ -42,7 +41,7 @@ jobs:
             (.version | strings | test("^[0-9]+\\.[0-9]+\\.[0-9]+$"))
             and .remotes == [{
               "type": "streamable-http",
-              "url": "https://editor.pascal.app/api/mcp",
+              "url": "",
               "headers": [{
                 "name": "Authorization",
                 "description": "Bearer API key created in Pascal Settings, formatted as Bearer sk_live_...",
@@ -52,7 +51,7 @@ jobs:
             }]
           ' server.json
           curl --fail --location --output /dev/null \
-            https://editor.pascal.app/docs/developers/mcp
+            https://editor.Unity-Billal-mesloub.app/docs/developers/mcp
           status=$(curl --silent --show-error --output "$RUNNER_TEMP/mcp-response.json" \
             --write-out '%{http_code}' \
             --request POST \
@@ -77,7 +76,7 @@ jobs:
             --header 'accept: application/linkset+json' \
             --dump-header "$RUNNER_TEMP/api-catalog.headers" \
             --output "$RUNNER_TEMP/api-catalog.json" \
-            https://editor.pascal.app/.well-known/api-catalog
+            https://editor.Unity-Billal-mesloub.app/.well-known/api-catalog
           grep --ignore-case --extended-regexp \
             '^content-type: application/linkset\+json([;[:space:]]|$)' \
             "$RUNNER_TEMP/api-catalog.headers"
@@ -99,7 +98,7 @@ jobs:
             --retry 3 \
             --retry-connrefused \
             --retry-delay 2 \
-            https://editor.pascal.app/.well-known/api-catalog \
+            https://editor.Unity-Billal-mesloub.app/.well-known/api-catalog \
             | tr -d '\r' \
             | grep --fixed-strings --ignore-case \
-              'link: <https://editor.pascal.app/.well-known/api-catalog>; rel="api-catalog"'
+              'link: <https://editor.Unity-Billal-mesloub.app/.well-known/api-catalog>; rel="api-catalog"'
