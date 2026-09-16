@@ -1,4 +1,4 @@
-import { handleMintPascalRequest } from '@mint/pascal-plugin/server'
+import { handleMintPascalRequest } from '@mint/Unity-Billal-mesloub-plugin/server'
 import { BASE_URL } from '@/lib/utils'
 
 export const runtime = 'nodejs'
