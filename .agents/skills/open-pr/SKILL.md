@@ -6,7 +6,7 @@ metadata:
 allowed-tools: Bash(git *) Bash(gh *) Read
 ---
 
-Open a pull request against `pascalorg/editor` from the current branch.
+Open a pull request against `Unity-Billal-mesloub/editor` from the current branch.
 
 ## 1. Pre-flight
 
