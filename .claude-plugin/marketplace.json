@@ -4,21 +4,20 @@
   "version": "0.1.10",
   "description": "Public Pascal workflows for MCP-capable agents.",
   "owner": {
-    "name": "Pascal"
+    "name": "Unity-Billal-mesloub"
   },
   "plugins": [
     {
-      "name": "pascal-agent-skills",
+      "name": "Unity-Billal-mesloub-agent-skills",
       "source": "./skills",
       "description": "Create, inspect, validate, and assess furniture layouts with bounded next actions in Pascal through MCP.",
       "author": {
-        "name": "Pascal",
-        "email": "support@pascal.app",
-        "url": "https://pascal.app"
+        "name": "Unity-Billal-mesloub",
+        
       },
       "version": "0.1.10",
       "category": "productivity",
-      "skills": ["./pascal-3d", "./furniture-fit"]
+      "skills": ["./Unity-Billal-mesloub-3d", "./furniture-fit"]
     }
   ]
 }
