@@ -526,14 +526,3 @@ Bug fixes, features, docs and ideas are all welcome. Start with [CONTRIBUTING.md
 - Participation is covered by our [Code of Conduct](CODE_OF_CONDUCT.md)
 - Security problems go to [SECURITY.md](SECURITY.md), not a public issue
 
----
-
-## Contributors
-
-<a href="https://github.com/Aymericr"><img src="https://avatars.githubusercontent.com/u/4444492?v=4" width="60" height="60" alt="Aymeric Rabot" style="border-radius:50%"></a>
-<a href="https://github.com/wass08"><img src="https://avatars.githubusercontent.com/u/6551176?v=4" width="60" height="60" alt="Wassim Samad" style="border-radius:50%"></a>
-<a href="https://github.com/sudhir9297"><img src="https://avatars.githubusercontent.com/sudhir9297?v=4" width="60" height="60" alt="Sudhir" style="border-radius:50%"></a>
-
----
-
-<a href="https://trendshift.io/repositories/23831" target="_blank"><img src="https://trendshift.io/api/badge/repositories/23831" alt="pascalorg/editor | Trendshift" width="250" height="55"/></a>
