@@ -519,10 +519,9 @@ the builds without touching the registry.
 
 ## Contributing
 
-Bug fixes, features, docs and ideas are all welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) for setup, code style and the PR flow.
+Bug fixes, features, docs and ideas are all welcome. Start with [CONTRIBUTING]() for setup, code style and the PR flow.
 
 - New node kinds and sidebar panels ship as [plugins](https://editor.pascal.app/docs/developers/plugins) rather than edits to the built-ins — [`pascalorg/plugin-trees`](https://github.com/Unity-Agriculture/plugin-trees) is a worked example
-- Questions and ideas go to [Discussions](https://github.com/Unity-Billal-mesloub/editor/discussions); reproducible bugs go to [Issues](https://github.com/Unity-Billal-mesloub/editor/issues)
-- Participation is covered by our [Code of Conduct](CODE_OF_CONDUCT.md)
+- Questions and ideas go to [Discussions](https://github.com/Unity-Billal-mesloub/editor-architectural/discussions); reproducible bugs go to [Issues](https://github.com/Unity-Billal-mesloub/editor-architectural/issues)
 - Security problems go to [SECURITY.md](SECURITY.md), not a public issue
 
